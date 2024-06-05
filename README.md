@@ -14,4 +14,5 @@
 1.  Clonar el repositorio
 2.  Instalar dependencias
 3.  Crear un archivo `.env` basdo en el `env.template`
-4.  Ejecutar `yarn start:dev`
+4.  Iniciar la base de datos con `docker-compose up -d`
+5.  Ejecutar `yarn start:dev`
