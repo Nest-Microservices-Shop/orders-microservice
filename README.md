@@ -7,7 +7,7 @@
 
 # Orders Microservice
 
-[![My Skills](https://skillicons.dev/icons?i=prisma,git,nestjs,postgres,ts,yarn)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=prisma,git,nestjs,postgres,ts,yarn,postman)](https://skillicons.dev)
 
 ## Dev
 
