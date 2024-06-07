@@ -15,4 +15,12 @@
 2.  Instalar dependencias
 3.  Crear un archivo `.env` basdo en el `env.template`
 4.  Iniciar la base de datos con `docker-compose up -d`
-5.  Ejecutar `yarn start:dev`
+5.  Levantar el servidor de nats
+
+```pwsh
+
+docker run -d --name nats-server -p 4222:4222 -p 8222:8222 nats
+
+```
+
+6.  Ejecutar `yarn start:dev`
