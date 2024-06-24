@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  orders-ms:
+    build:
+      context: ./
+      dockerfile: Dockerfile.prod
+      args:
+        - ORDERS_DATABASE_URL=${ORDERS_DATABASE_URL}
+    image: fmyersdev/orders-ms:latest
+    environment:
+      - PORT=${PORT}
+      - NATS_SERVERS=nats://nats-server:4222
+      - DATABASE_URL=${ORDERS_DATABASE_URL}
